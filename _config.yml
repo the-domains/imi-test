@@ -1,0 +1,28 @@
+name: imi-test
+favicon: null
+layout_spectrum: 0.29579063947312534
+typography_spectrum: 0.870361506473273
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#9D2D3C'
+    - '#DDE4DD'
+    - '#BCAB47'
+    - '#6B574B'
+    - '#160600'
+  brandStrength: 0.6961155685130507
+  lightness: 0.02985700056888163
+  saturation: 0.3183563032653183
+  rhythmicContrast: 0.7526275578420609
+purpose: []
