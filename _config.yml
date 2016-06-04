@@ -1,28 +1,40 @@
-name: imi-test
 favicon: null
-layout_spectrum: 0.29579063947312534
-typography_spectrum: 0.870361506473273
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: imi-test
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
+  saturation: 0.3183563032653183
   brandStrength: 0.6961155685130507
   lightness: 0.02985700056888163
-  saturation: 0.3183563032653183
+  brandColors:
+    - '#F4E8CE'
+    - '#0B0F1A'
+    - '#266074'
+    - '#528A97'
+    - '#A5C3C5'
   rhythmicContrast: 0.7526275578420609
-purpose: []
+typography_spectrum: 0.870361506473273
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.2957906394731253
+analytics:
+  twitter: null
+  google: null
+  facebook: null
